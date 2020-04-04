@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CounterSampleComponent } from './components/counter-sample/counter-sample.component';
+import { FormSampleComponent } from './components/form-sample/form-sample.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CounterSampleComponent,
+    FormSampleComponent
   ],
   imports: [
     BrowserModule,
